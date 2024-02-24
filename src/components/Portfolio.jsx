@@ -40,12 +40,18 @@ const Portfolio = () => {
           {/* 1st project */}
           <div className='shadow-md shadow-gray-600 rounded-lg'>
             <img src={karatesite} alt="" className='rounded-md hover:scale-105 duration-200' />
-            <div className='flex items-center justify-center'>
+            {/* <div className='flex items-center justify-center'>
               <a href="https://mutualism-salvages.000webhostapp.com/">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-1 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
               </a>
               <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-            </div>
+            </div> */}
+
+            <div className='flex items-center justify-center '>
+              <a href="https://mutualism-salvages.000webhostapp.com/">
+               <button className='w-64 px-6 py-3 m-4 text-white rounded-md hover:scale-105 duration-200'>Karate Website</button>
+             </a>
+          </div>
           </div>
 
 
@@ -54,11 +60,11 @@ const Portfolio = () => {
             <img src={coursesite} alt="" className='rounded-md hover:scale-105 duration-200' />
             <div className='flex items-center justify-center'>
               <a href="https://karansingh2004.github.io/ReactApp-using-TailWindCSS/">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-64 px-6 p-3 m-4 hover:scale-105 duration-200'>Coaching Website</button>
               </a>
-              <a href="https://github.com/karansingh2004/ReactApp-using-TailWindCSS">
+              {/* <a href="https://github.com/karansingh2004/ReactApp-using-TailWindCSS">
                 <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -67,11 +73,11 @@ const Portfolio = () => {
             <img src={jarvis} alt="" className='rounded-md hover:scale-105 duration-200' />
             <div className='flex items-center justify-center'>
               <a href="https://github.com/karansingh2004/Jarvis-AI-Project">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-64 px-6 p-3 m-4 hover:scale-105 duration-200'>Jarvis - AI</button>
               </a>
-              <a href="https://github.com/karansingh2004/Jarvis-AI-Project">
+              {/* <a href="https://github.com/karansingh2004/Jarvis-AI-Project">
                 <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -80,11 +86,11 @@ const Portfolio = () => {
             <img src={simplecalculator} alt="" className='rounded-md hover:scale-105 duration-200' />
             <div className='flex items-center justify-center'>
               <a href="https://github.com/karansingh2004/Simple-Calculator">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-64 px-6 p-3 m-4 hover:scale-105 duration-200'>Calculator GUI</button>
               </a>
-              <a href="https://github.com/karansingh2004/Simple-Calculator">
+              {/* <a href="https://github.com/karansingh2004/Simple-Calculator">
                 <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -93,11 +99,11 @@ const Portfolio = () => {
             <img src={notepad} alt="" className='rounded-md hover:scale-105 duration-200' />
             <div className='flex items-center justify-center'>
               <a href="https://github.com/karansingh2004/Notepad-Project">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-64 px-6 p-3 m-4 hover:scale-105 duration-200'>Notepad GUI</button>
               </a>
-              <a href="https://github.com/karansingh2004/Notepad-Project">
+              {/* <a href="https://github.com/karansingh2004/Notepad-Project">
                 <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -106,11 +112,11 @@ const Portfolio = () => {
             <img src={certificates} alt="" className='rounded-md hover:scale-105 duration-200' />
             <div className='flex items-center justify-center'>
               <a href="https://github.com/karansingh2004/My-Certifications">
-                <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
+                <button className='w-64 px-6 p-3 m-4 hover:scale-105 duration-200'>My Certifications</button>
               </a>
-              <a href="https://github.com/karansingh2004/My-Certifications">
+              {/* <a href="https://github.com/karansingh2004/My-Certifications">
                 <button className='w-1/2 px-6 p-3 m-4 hover:scale-105 duration-200'>Code</button>
-              </a>
+              </a> */}
             </div>
           </div>
           
