@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bcfbd064.css",
-    "main.js": "/portfolio/static/js/main.a2e0fa86.js",
+    "main.css": "/portfolio/static/css/main.5a3fc2a5.css",
+    "main.js": "/portfolio/static/js/main.4176c508.js",
     "static/media/karatesite.png": "/portfolio/static/media/karatesite.1796f027ad2950bcad3f.png",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
     "static/media/notepad.jpg": "/portfolio/static/media/notepad.d490befb6831278109a4.jpg",
@@ -28,11 +28,11 @@
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.46b60a474fb3ea180a1b.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.bcfbd064.css.map": "/portfolio/static/css/main.bcfbd064.css.map",
-    "main.a2e0fa86.js.map": "/portfolio/static/js/main.a2e0fa86.js.map"
+    "main.5a3fc2a5.css.map": "/portfolio/static/css/main.5a3fc2a5.css.map",
+    "main.4176c508.js.map": "/portfolio/static/js/main.4176c508.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcfbd064.css",
-    "static/js/main.a2e0fa86.js"
+    "static/css/main.5a3fc2a5.css",
+    "static/js/main.4176c508.js"
   ]
 }
