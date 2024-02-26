@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.03f6a7c7.css",
-    "main.js": "/portfolio/static/js/main.95abecf3.js",
+    "main.css": "/portfolio/static/css/main.bcfbd064.css",
+    "main.js": "/portfolio/static/js/main.a2e0fa86.js",
     "static/media/karatesite.png": "/portfolio/static/media/karatesite.1796f027ad2950bcad3f.png",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
     "static/media/notepad.jpg": "/portfolio/static/media/notepad.d490befb6831278109a4.jpg",
@@ -9,20 +9,30 @@
     "static/media/jarvis.jpg": "/portfolio/static/media/jarvis.5e58e6c97834bf3ac617.jpg",
     "static/media/linux.png": "/portfolio/static/media/linux.b819fa93269f92442dc6.png",
     "static/media/certificates.jpg": "/portfolio/static/media/certificates.965e881d616908173b9a.jpg",
+    "static/media/canva.png": "/portfolio/static/media/canva.e1e76a0eaca08301e1b8.png",
     "static/media/coursesite.png": "/portfolio/static/media/coursesite.b6bf64008fc072bda754.png",
+    "static/media/jenkins.png": "/portfolio/static/media/jenkins.4b365057f51e7c1c723e.png",
+    "static/media/kubernets.png": "/portfolio/static/media/kubernets.966465b08679fe6f9bec.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/nextjs.png": "/portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
+    "static/media/docker.png": "/portfolio/static/media/docker.47c745489317a5c9f8da.png",
+    "static/media/java.png": "/portfolio/static/media/java.718094b2199cb7e9ab8a.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.f857a5d56b84e0d5510b.png",
+    "static/media/wordpress.png": "/portfolio/static/media/wordpress.9ed0896d36cf81252fd2.png",
+    "static/media/aws.png": "/portfolio/static/media/aws.f7c71a61b9ea94f84bca.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/c.png": "/portfolio/static/media/c.937c5a3d822b164fef51.png",
+    "static/media/terraform.png": "/portfolio/static/media/terraform.fb67bd3c76dd017253e4.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.46b60a474fb3ea180a1b.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.03f6a7c7.css.map": "/portfolio/static/css/main.03f6a7c7.css.map",
-    "main.95abecf3.js.map": "/portfolio/static/js/main.95abecf3.js.map"
+    "main.bcfbd064.css.map": "/portfolio/static/css/main.bcfbd064.css.map",
+    "main.a2e0fa86.js.map": "/portfolio/static/js/main.a2e0fa86.js.map"
   },
   "entrypoints": [
-    "static/css/main.03f6a7c7.css",
-    "static/js/main.95abecf3.js"
+    "static/css/main.bcfbd064.css",
+    "static/js/main.a2e0fa86.js"
   ]
 }
