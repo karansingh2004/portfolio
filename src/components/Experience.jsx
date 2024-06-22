@@ -26,7 +26,7 @@ import kubernets from '../assets/kubernets.png';
 
 const Experience = () => {
     return (
-        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen '>
+        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-[200px] '>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 {/* While adding new tech chnage mt-['x'px] same in other pages */}
                 <div className='mt-[650px] sm:mt-10'>
