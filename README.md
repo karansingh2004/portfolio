@@ -68,3 +68,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+###Step 1: Create a new file named Dockerfile in the root of your project
+
+Dockerfile :
+```bash
+# Use an official Node.js 14 image as a base
+FROM node:14
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the package*.json files
+COPY package*.json./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application code
+COPY..
+
+# Expose the port the app will use
+EXPOSE 3000
+
+# Run the command to start the development server
+CMD ["npm", "run", "start"]
+```
+
+
+###Step 2: Build the Docker image
+
+Open a terminal in the root of your project and run the following command:
+
+```bash
+docker build -t my-react-app.
+```
+
+###Step 3: Run the Docker container
+
+To run the Docker container, use the following command:
+
+```bash
+docker run -p 3000:3000 my-react-app
+```
+
+
+This will start a new container from the 'my-react-app' image and map port 3000 on the host machine to port 3000 in the container.
+
+That's it! You now have a Dockerized React.js application using Node.js and npm.
+
+Note: Make sure to replace 'my-react-app' with the desired name for your Docker image.
+
+
+
