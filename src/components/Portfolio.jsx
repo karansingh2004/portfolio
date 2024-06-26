@@ -7,6 +7,7 @@ import jarvis from '../assets/portfolio/jarvis.jpg'
 // import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 // import reactWeather from '../assets/portfolio/reactWeather.jpg';
 import karatesite from '../assets/portfolio/karatesite.png';
+import adarshsrsec from '../assets/portfolio/adarshsrsecschool.png';
 import coursesite from '../assets/portfolio/coursesite.png';
 import simplecalculator from '../assets/portfolio/simplecalculator.jpg';
 import notepad from '../assets/portfolio/notepad.jpg';
@@ -39,7 +40,7 @@ const Portfolio = () => {
 
           {/* 1st project */}
           <div className='shadow-md shadow-gray-600 rounded-lg'>
-            <img src={karatesite} alt="" className='rounded-md hover:scale-105 duration-200' />
+            <img src={adarshsrsec} alt="" className='rounded-md hover:scale-105 duration-200' />
             {/* <div className='flex items-center justify-center'>
               <a href="https://mutualism-salvages.000webhostapp.com/">
                 <button className='w-1 px-6 p-3 m-4 hover:scale-105 duration-200'>Demo</button>
@@ -48,8 +49,8 @@ const Portfolio = () => {
             </div> */}
 
             <div className='flex items-center justify-center '>
-              <a href="https://mutualism-salvages.000webhostapp.com/">
-               <button className='w-64 px-6 py-3 m-4 text-white rounded-md hover:scale-105 duration-200'>Karate Website</button>
+              <a href="https://adarshsrsec.github.io/school/">
+               <button className='w-64 px-6 py-3 m-4 text-white rounded-md hover:scale-105 duration-200'>School Website</button>
              </a>
           </div>
           </div>
