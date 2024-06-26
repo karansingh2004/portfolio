@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.99adccfb.css",
-    "main.js": "/portfolio/static/js/main.6e3bbf7d.js",
+    "main.js": "/portfolio/static/js/main.e0a4ac69.js",
     "static/media/karatesite.png": "/portfolio/static/media/karatesite.1796f027ad2950bcad3f.png",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
+    "static/media/adarshsrsecschool.png": "/portfolio/static/media/adarshsrsecschool.4203dcbe62e8e17d7331.png",
     "static/media/notepad.jpg": "/portfolio/static/media/notepad.d490befb6831278109a4.jpg",
     "static/media/myImage.jpg": "/portfolio/static/media/myImage.a027f1416921499f099c.jpg",
     "static/media/jarvis.jpg": "/portfolio/static/media/jarvis.5e58e6c97834bf3ac617.jpg",
@@ -29,10 +30,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.99adccfb.css.map": "/portfolio/static/css/main.99adccfb.css.map",
-    "main.6e3bbf7d.js.map": "/portfolio/static/js/main.6e3bbf7d.js.map"
+    "main.e0a4ac69.js.map": "/portfolio/static/js/main.e0a4ac69.js.map"
   },
   "entrypoints": [
     "static/css/main.99adccfb.css",
-    "static/js/main.6e3bbf7d.js"
+    "static/js/main.e0a4ac69.js"
   ]
 }
