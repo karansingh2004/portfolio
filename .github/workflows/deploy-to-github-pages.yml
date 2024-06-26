@@ -1,4 +1,4 @@
-name: Deploy to Github Pages
+name: Build and Deploy to Github Pages
 
 on:
   push:
@@ -26,9 +26,8 @@ jobs:
           docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/my-app:latest npm run test
           docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/my-app:latest npm run build
       - name: Deploy to Github Pages
-        uses: actions/checkout@v2
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git remote add origin https://github.com/${GITHUB_REPO}.git
-          git push --force origin main:gh-pages 
+          git push --force origin main:gh-pages
