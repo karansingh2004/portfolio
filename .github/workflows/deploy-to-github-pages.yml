@@ -18,13 +18,13 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build and push Docker image
         run: |
-          docker build -t my-app .
-          docker tag my-app ${{ secrets.DOCKER_USERNAME }}/my-app:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/my-app:latest
+          docker build -t karansingh2004/my-portfolio-site:latest .
+          docker tag my-app ${{ secrets.DOCKER_USERNAME }}/karansingh2004/my-portfolio-site:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/karansingh2004/my-portfolio-site:latest
       - name: Run tests and build website
         run: |
-          docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/my-app:latest npm run test
-          docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/my-app:latest npm run build
+          docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/karansingh2004/my-portfolio-site:latest npm run test
+          docker run -it --rm ${{ secrets.DOCKER_USERNAME }}/karansingh2004/my-portfolio-site:latest npm run build
       - name: Deploy to Github Pages
         run: |
           git config --global user.name "github-actions"
