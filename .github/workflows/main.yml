@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.GITHUBKA_USERNAME }}
-          password: ${{ secrets.GITHUBKA_PASSWORD }}
+          password: ${{ secrets.GITHUBKA_TOKEN }}
 
       - name: Build and push image
         run: |
