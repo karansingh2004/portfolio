@@ -15,7 +15,7 @@ jobs:
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
         with:
-          username: ${{ secrets.GITHUB_USERNAME }}
+          username: ${{ secrets.GITHUBKA_USERNAME }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push image
