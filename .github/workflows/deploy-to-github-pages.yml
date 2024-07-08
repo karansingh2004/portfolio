@@ -19,10 +19,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
       - name: Build
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "karan1312004@gail.com"
+          git config --global user.name "karansingh2004"
       - name: Deploy to GitHub Pages
         env:
           GITHUBKA_TOKEN: ${{ secrets.GITHUBKA_TOKEN }}
