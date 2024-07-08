@@ -26,6 +26,8 @@ jobs:
         run: |
           npm run build
           git remote set-url origin https://${GITHUB_TOKEN}@github.com/karansingh2004/portfolio.git
+          git config --global user.email "karan1312004@gmail.com"
+          git config --global user.name "karansingh2004"
           git push --force origin gh-pages
       - name: Deploy to GitHub Pages
         id: deployment
