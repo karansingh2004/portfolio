@@ -25,6 +25,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUBKA_TOKEN }}
         run: |
           npm run build
+          git remote add origin https://${GITHUBKA_TOKEN}@github.com/karansingh2004/portfolio.git
           npm run deploy
       - name: Deploy to GitHub Pages
         id: deployment
