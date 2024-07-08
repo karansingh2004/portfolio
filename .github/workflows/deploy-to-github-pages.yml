@@ -33,4 +33,5 @@ jobs:
             git remote set-url origin https://github.com/karansingh2004/portfolio.git
             git push --force origin gh-pages
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
