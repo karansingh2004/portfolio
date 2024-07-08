@@ -6,7 +6,7 @@ import jarvis from '../assets/portfolio/jarvis.jpg'
 // import reactParallax from '../assets/portfolio/reactParallax.jpg';
 // import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 // import reactWeather from '../assets/portfolio/reactWeather.jpg';
-import karatesite from '../assets/portfolio/karatesite.png';
+// import karatesite from '../assets/portfolio/karatesite.png';
 import adarshsrsec from '../assets/portfolio/adarshsrsecschool.png';
 import coursesite from '../assets/portfolio/coursesite.png';
 import simplecalculator from '../assets/portfolio/simplecalculator.jpg';
