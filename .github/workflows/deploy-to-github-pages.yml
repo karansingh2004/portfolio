@@ -8,14 +8,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -28,9 +25,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUBKA_TOKEN }}
-        run: |
-          git config --global user.email "karan1312004@gmail.com"
-          git config --global user.name "karansingh2004"
-          npm run deploy
-
+          GITHUBKA_TOKEN: ${{ secrets.GITHUBKA_TOKEN }}
+        run: npm run deploy
