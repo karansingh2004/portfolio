@@ -12,7 +12,7 @@ import python from '../assets/python.png';
 import c from '../assets/c.png';
 import cpp from '../assets/cpp.png';
 import java from '../assets/java.png';
-import canva from '../assets/canva.png';
+// import canva from '../assets/canva.png';
 import jenkins from '../assets/jenkins.png';
 import docker from '../assets/docker.png';
 import aws from '../assets/aws.png';
