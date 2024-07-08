@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && git config user.email \"karan1312004@gmail.com\" && git config user.name \"karansingh2004\" && git push https://github.com/karansingh2004/portfolio.git gh-pages",
+    "deploy": "gh-pages -d build && git push https://${GITHUBKA_TOKEN}@github.com/karansingh2004/portfolio.git gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
