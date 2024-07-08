@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && git push https://${GITHUBKA_TOKEN}@github.com/karansingh2004/portfolio.git gh-pages",
+    "deploy": "gh-pages -d build ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
