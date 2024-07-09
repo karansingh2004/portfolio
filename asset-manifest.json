@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.99adccfb.css",
-    "main.js": "/portfolio/static/js/main.e0a4ac69.js",
-    "static/media/karatesite.png": "/portfolio/static/media/karatesite.1796f027ad2950bcad3f.png",
+    "main.js": "/portfolio/static/js/main.d8692be8.js",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
     "static/media/adarshsrsecschool.png": "/portfolio/static/media/adarshsrsecschool.4203dcbe62e8e17d7331.png",
     "static/media/notepad.jpg": "/portfolio/static/media/notepad.d490befb6831278109a4.jpg",
@@ -10,7 +9,6 @@
     "static/media/jarvis.jpg": "/portfolio/static/media/jarvis.5e58e6c97834bf3ac617.jpg",
     "static/media/linux.png": "/portfolio/static/media/linux.b819fa93269f92442dc6.png",
     "static/media/certificates.jpg": "/portfolio/static/media/certificates.965e881d616908173b9a.jpg",
-    "static/media/canva.png": "/portfolio/static/media/canva.e1e76a0eaca08301e1b8.png",
     "static/media/coursesite.png": "/portfolio/static/media/coursesite.b6bf64008fc072bda754.png",
     "static/media/jenkins.png": "/portfolio/static/media/jenkins.4b365057f51e7c1c723e.png",
     "static/media/kubernets.png": "/portfolio/static/media/kubernets.966465b08679fe6f9bec.png",
@@ -30,10 +28,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.99adccfb.css.map": "/portfolio/static/css/main.99adccfb.css.map",
-    "main.e0a4ac69.js.map": "/portfolio/static/js/main.e0a4ac69.js.map"
+    "main.d8692be8.js.map": "/portfolio/static/js/main.d8692be8.js.map"
   },
   "entrypoints": [
     "static/css/main.99adccfb.css",
-    "static/js/main.e0a4ac69.js"
+    "static/js/main.d8692be8.js"
   ]
 }
