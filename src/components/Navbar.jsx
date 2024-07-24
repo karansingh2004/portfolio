@@ -53,7 +53,7 @@ const Navbar = () => {
                         <Link to='portfolio' onClick={() => setMenu(!menu)} smooth duration={500}>Portfolio </Link> </li>
 
                     <li className='px-4 py-6 cursor-pointer text-3xl'>
-                        <a href="https://github.com/karansingh2004/My-Certifications/blob/main/KaranSingh_Resume.pdf">Resume</a>
+                        <a href="https://github.com/karansingh2004/My-Certifications/blob/main/KaranSingh-DevOpsResume.pdf">Resume</a>
                     </li>
 
                     <li className='px-4 py-6 cursor-pointer text-3xl'>
