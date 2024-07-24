@@ -33,7 +33,7 @@ const SocialLinks = () => {
         </li>
 
         <li className='flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-200 hover:rounded-md'>
-          <a href="https://github.com/karansingh2004/My-Certifications/blob/main/KaranSingh_Resume.pdf" className='flex justify-between items-center w-full text-white' download>
+          <a href="https://github.com/karansingh2004/My-Certifications/blob/main/KaranSingh-DevOpsResume.pdf" className='flex justify-between items-center w-full text-white' download>
             <>
               Resume <BsPersonLinesFill size={30} />
             </>
