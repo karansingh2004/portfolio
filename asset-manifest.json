@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.91b0a900.css",
-    "main.js": "/portfolio/static/js/main.b7d62acd.js",
+    "main.js": "/portfolio/static/js/main.ae1598a4.js",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
     "static/media/adarshsrsecschool.png": "/portfolio/static/media/adarshsrsecschool.4203dcbe62e8e17d7331.png",
     "static/media/notepad.jpg": "/portfolio/static/media/notepad.d490befb6831278109a4.jpg",
@@ -28,10 +28,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.91b0a900.css.map": "/portfolio/static/css/main.91b0a900.css.map",
-    "main.b7d62acd.js.map": "/portfolio/static/js/main.b7d62acd.js.map"
+    "main.ae1598a4.js.map": "/portfolio/static/js/main.ae1598a4.js.map"
   },
   "entrypoints": [
     "static/css/main.91b0a900.css",
-    "static/js/main.b7d62acd.js"
+    "static/js/main.ae1598a4.js"
   ]
 }
