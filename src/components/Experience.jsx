@@ -16,8 +16,19 @@ import java from '../assets/java.png';
 import jenkins from '../assets/jenkins.png';
 import docker from '../assets/docker.png';
 import aws from '../assets/aws.png';
+import gcp from '../assets/GCP.png';
 import terraform from '../assets/terraform.png';
 import kubernets from '../assets/kubernets.png';
+import intellij from '../assets/IntelliJ IDEA.png';
+import gitlab from '../assets/GitLab.png';
+import jupyter from '../assets/Jupyter.png';
+import sql from '../assets/SQL Developer.png';
+import mysql from '../assets/MySQL.png';
+import yaml from '../assets/YAML.png';
+import xml from '../assets/XML.png';
+import swagger from '../assets/Swagger.png';
+import ubuntu from '../assets/Ubuntu.png';
+
 
 
 
@@ -145,11 +156,81 @@ const Experience = () => {
                         <p className='mt-4'>AWS</p>
                     </div>
 
-                    
+
                     {/* 18th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white'>
+                        <img src={gcp} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>GCP</p>
+                    </div>
+
+                    
+                    {/* 19th */}
                     <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
                         <img src={terraform} alt="" className='w-20 mx-auto' />
                         <p className='mt-4'>Terraform</p>
+                    </div>
+
+                    
+                    {/* 20th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={intellij} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>IntelliJ</p>
+                    </div>
+
+                    
+                    {/* 21th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={gitlab} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>GitLab</p>
+                    </div>
+
+                    
+                    {/* 22th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={jupyter} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>Jupyter</p>
+                    </div>
+
+                    
+                    {/* 23th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={sql} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>SQL Developer</p>
+                    </div>
+
+                    
+                    {/* 24th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={mysql} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>MySQL</p>
+                    </div>
+
+                    
+                    {/* 25th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={yaml} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>YAML</p>
+                    </div>
+
+                    
+                    {/* 26th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={xml} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>XML</p>
+                    </div>
+
+                    
+                    {/* 27th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={swagger} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>Swagger</p>
+                    </div>
+
+                    
+                    {/* 28th */}
+                    <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-purple-700'>
+                        <img src={ubuntu} alt="" className='w-20 mx-auto' />
+                        <p className='mt-4'>Ubuntu</p>
                     </div>
 
                 

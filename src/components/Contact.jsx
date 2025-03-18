@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
     return (
 
-        // use h-100 in below line and change mt-['x' px] while changing tech
-        <div name='contact' className='w-full h-100 bg-gradient-to-b from-black to-gray-800 p-4 pt-[500px] text-white'>
+        // use h-100 in below line and change pt-['x' px] while changing tech
+        <div name='contact' className='w-full h-100 bg-gradient-to-b from-black to-gray-800 p-4 pt-[900px] text-white'>
             <div className='flex flex-col mt-[800px] sm:mt-[150px] p-4 justify-center mx-auto max-w-screen-lg h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Contact</p>

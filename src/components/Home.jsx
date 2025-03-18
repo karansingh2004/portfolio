@@ -14,7 +14,7 @@ const Home = () => {
             I'm a 
             <TypeIt
               options={{
-                strings: [' Devops Engineer, ', 'Network Engineer, ', 'Web Designer'],
+                strings: [' Devops Engineer, ', 'Network Engineer, ', ' Web Designer'],
                 typeSpeed: 120,
                 backSpeed: 140,
                 loop: true,
@@ -43,7 +43,7 @@ const Home = () => {
         
         {/* right/bottom content */}
         <div>
-          <img src={myImage} alt="My Profile" className='h-[500px] w-[500px] rounded-xl mx-auto' />
+          <img src={myImage} alt="My Profile" className='h-[500px] w-[500px] rounded-xl mx-10 ' />
         </div>
 
       </div>
