@@ -14,7 +14,7 @@ const Home = () => {
             I'm a 
             <TypeIt
               options={{
-                strings: [' Devops Engineer, ', 'Network Engineer, ', ' Web Designer'],
+                strings: [' Devops Engineer ', '& Web Designer'],
                 typeSpeed: 120,
                 backSpeed: 140,
                 loop: true,

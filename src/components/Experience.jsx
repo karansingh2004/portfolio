@@ -38,7 +38,7 @@ import ubuntu from '../assets/Ubuntu.png';
 const Experience = () => {
     return (
         <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-[200px] '>
-            <div className='max-w-screen-lg mx-auto p-4 pt-[350px] flex flex-col justify-center w-full h-full text-white'>
+            <div className='max-w-screen-lg mx-auto p-4 pt-[550px] flex flex-col justify-center w-full h-full text-white'>
                 {/* While adding new tech change mt-['x'px] same in other pages */}
                 <div className='mt-[750px] sm:mt-20'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2'>Experience</p>
