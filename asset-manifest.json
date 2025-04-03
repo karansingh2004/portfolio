@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1a286c50.css",
-    "main.js": "/portfolio/static/js/main.26d6b5fa.js",
+    "main.css": "/portfolio/static/css/main.0c780958.css",
+    "main.js": "/portfolio/static/js/main.76021f83.js",
     "static/media/simplecalculator.jpg": "/portfolio/static/media/simplecalculator.d0e8bde75594601337ff.jpg",
     "static/media/adarshsrsecschool.png": "/portfolio/static/media/adarshsrsecschool.4203dcbe62e8e17d7331.png",
     "static/media/myImage.jpg": "/portfolio/static/media/myImage.f243913529c7a96423f8.jpg",
@@ -30,11 +30,11 @@
     "static/media/kubernets.png": "/portfolio/static/media/kubernets.79f5acd191c9ebc0ac9e.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.1a286c50.css.map": "/portfolio/static/css/main.1a286c50.css.map",
-    "main.26d6b5fa.js.map": "/portfolio/static/js/main.26d6b5fa.js.map"
+    "main.0c780958.css.map": "/portfolio/static/css/main.0c780958.css.map",
+    "main.76021f83.js.map": "/portfolio/static/js/main.76021f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a286c50.css",
-    "static/js/main.26d6b5fa.js"
+    "static/css/main.0c780958.css",
+    "static/js/main.76021f83.js"
   ]
 }
